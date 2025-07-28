@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSE 2nd-Year Courses</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #000000, #0c0c38);
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      overflow-x: hidden;
+      text-align: center;
+    }
+
+    .page-title {
+      font-size: 2em;
+      margin-top: 40px;
+      color: #ffd700;
+      text-shadow: 0 0 8px #00ffff;
+    }
+
+    .subtitle {
+      margin-bottom: 30px;
+      font-size: 1.2em;
+    }
+
+    .wheels-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    .wheel {
+      width: 300px;
+      height: 300px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 50%;
+      border: 3px solid #00ffff;
+      box-shadow: 0 0 30px #00ffff, inset 0 0 20px #ffd700;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      animation: slideIn 1.5s ease forwards;
+    }
+
+    .wheel-left {
+      animation-name: slideInLeft;
+    }
+
+    .wheel-right {
+      animation-name: slideInRight;
+    }
+
+    .slice {
+      background: rgba(255, 255, 255, 0.08);
+      border: 2px solid gold;
+      color: white;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 10px;
+      width: 100px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px #00f0ff;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .slice:hover {
+      background-color: #000;
+      color: #00f0ff;
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00f0ff;
+    }
+
+    @keyframes slideInLeft {
+      0% {
+        transform: translateX(-100vw);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideInRight {
+      0% {
+        transform: translateX(100vw);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .wheels-container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .wheel {
+        width: 90vw;
+        height: 90vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="page-title">With lot's of hopes again new batch - 2<sup>nd</sup> Year</h1>
+  <p class="subtitle">Select your course below to explore PDFs, videos, and more.</p>
+
+  <div class="wheels-container">
+    <div class="wheel wheel-left">
+      <a href="../courses/EE Courses/Measurements and Instrumentation.html" class="slice">Measurements and Instrumentation</a>
+      <a href="../courses/EE Courses/Network Analysis and Synthesis.html" class="slice">Network Analysis and Synthesis</a>
+      <a href="../courses/EE Courses/Analog Circuits.html" class="slice">Analog Circuits</a>
+      <a href="../courses/EE Courses/Signals and Systems.html" class="slice">Signals and Systems</a>
+      <a href="../courses/EE Courses/Semiconductor Devices.html" class="slice">Semiconductor Devices</a>
+      <a href="../courses/EE Courses/Electrical Machines-1.html" class="slice">Electrical Machines-1</a>
+    </div>
+
+    <div class="wheel wheel-right">
+      <a href="../courses/EE Courses/Digital Electronics.html" class="slice">Digital Electronics</a>
+      <a href="../courses/EE Courses/Micro Processor.html" class="slice">Micro Processor</a>
+      <a href="../courses/EE Courses/Control Systems.html" class="slice">Control Systems</a>
+      <a href="../courses/EE Courses/Computer Organization and Architecture.html" class="slice">Computer Organization and Architecture</a>
+      <a href="../courses/EE Courses/Internet of Things.html" class="slice">Internet of Things</a>
+      <a href="../courses/EE Courses/Electrical Machines-2.html" class="slice">Electrical Machines-2</a>
+    </div>
+  </div>
+</body>
+</html>

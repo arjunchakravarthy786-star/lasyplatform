@@ -1,0 +1,599 @@
+{
+  "courses": [
+    {
+      "year": "1st",
+      "branch": "All",
+      "course": "Calculus and Linear Algebra"
+    },
+    {
+      "year": "1st",
+      "branch": "All",
+      "course": "Foundations of Programming"
+    },
+    {
+      "year": "1st",
+      "branch": "All",
+      "course": "Physics"
+    },
+    {
+      "year": "1st",
+      "branch": "All",
+      "course": "Engineering Graphics"
+    },
+    {
+      "year": "1st",
+      "branch": "All",
+      "course": "Electrical Sciences"
+    },
+    {
+      "year": "1st",
+      "branch": "All",
+      "course": "English for Professionals"
+    },
+    {
+      "year": "1st",
+      "branch": "All",
+      "course": "Probability Theory and Ordinary Differential Equations"
+    },
+    {
+      "year": "1st",
+      "branch": "All",
+      "course": "Data Structure"
+    },
+    {
+      "year": "1st",
+      "branch": "All",
+      "course": "Chemistry"
+    },
+    {
+      "year": "1st",
+      "branch": "All",
+      "course": "Mechanical Fabrication"
+    },
+    {
+      "year": "1st",
+      "branch": "All",
+      "course": "Engineering Mechanics"
+    },
+    {
+      "year": "1st",
+      "branch": "All",
+      "course": "Indian Knowledge System (IKS)"
+    },
+    {
+      "year": "2nd",
+      "branch": "CBE",
+      "course": "Introduction to Chemical Engineering"
+    },
+    {
+      "year": "2nd",
+      "branch": "CBE",
+      "course": "Fluid Mechanics"
+    },
+    {
+      "year": "2nd",
+      "branch": "CBE",
+      "course": "Heat Transfer"
+    },
+    {
+      "year": "2nd",
+      "branch": "CBE",
+      "course": "Chemical Process Calculations"
+    },
+    {
+      "year": "2nd",
+      "branch": "CBE",
+      "course": "Chemical Engineering Thermodynamics"
+    },
+    {
+      "year": "2nd",
+      "branch": "CBE",
+      "course": "Mechanical Operations"
+    },
+    {
+      "year": "2nd",
+      "branch": "CBE",
+      "course": "Mass Transfer-I"
+    },
+    {
+      "year": "2nd",
+      "branch": "CBE",
+      "course": "Fundamentals of Biochemical Engineering"
+    },
+    {
+      "year": "2nd",
+      "branch": "CBE",
+      "course": "Process Dynamics and Control"
+    },
+    {
+      "year": "2nd",
+      "branch": "CBE",
+      "course": "Chemical Reaction Engineering-I"
+    },
+    {
+      "year": "2nd",
+      "branch": "Civil",
+      "course": "Geomatics Engineering"
+    },
+    {
+      "year": "2nd",
+      "branch": "Civil",
+      "course": "Structural Mechanics"
+    },
+    {
+      "year": "2nd",
+      "branch": "Civil",
+      "course": "Fluid Mechanics"
+    },
+    {
+      "year": "2nd",
+      "branch": "Civil",
+      "course": "Geology for Engineers"
+    },
+    {
+      "year": "2nd",
+      "branch": "Civil",
+      "course": "Structural Analysis"
+    },
+    {
+      "year": "2nd",
+      "branch": "Civil",
+      "course": "Soil Mechanics"
+    },
+    {
+      "year": "2nd",
+      "branch": "Civil",
+      "course": "Civil Engineering Materials"
+    },
+    {
+      "year": "2nd",
+      "branch": "Civil",
+      "course": "Water Resources Engineering\u2013I"
+    },
+    {
+      "year": "2nd",
+      "branch": "Civil",
+      "course": "Numerical Methods in Civil Engineering"
+    },
+    {
+      "year": "2nd",
+      "branch": "Chemistry",
+      "course": "Organic Chemistry"
+    },
+    {
+      "year": "2nd",
+      "branch": "Chemistry",
+      "course": "Inorganic Chemistry"
+    },
+    {
+      "year": "2nd",
+      "branch": "Chemistry",
+      "course": "Introduction to Quantum Chemistry"
+    },
+    {
+      "year": "2nd",
+      "branch": "Chemistry",
+      "course": "Fluid Mechanics"
+    },
+    {
+      "year": "2nd",
+      "branch": "Chemistry",
+      "course": "Chemical Process Calculations"
+    },
+    {
+      "year": "2nd",
+      "branch": "Chemistry",
+      "course": "Structure and function of Biomolecules"
+    },
+    {
+      "year": "2nd",
+      "branch": "Chemistry",
+      "course": "Introduction to OrganoMMEllics"
+    },
+    {
+      "year": "2nd",
+      "branch": "Chemistry",
+      "course": "Chemical Thermodynamics and Equilibrium"
+    },
+    {
+      "year": "2nd",
+      "branch": "Chemistry",
+      "course": "Industrial Chemistry"
+    },
+    {
+      "year": "2nd",
+      "branch": "Chemistry",
+      "course": "Chemical Technology Laboratory I"
+    },
+    {
+      "year": "2nd",
+      "branch": "AI&DS",
+      "course": "Algorithm"
+    },
+    {
+      "year": "2nd",
+      "branch": "AI&DS",
+      "course": "Digital Logic and Computer Organization"
+    },
+    {
+      "year": "2nd",
+      "branch": "AI&DS",
+      "course": "Artificial Intelligence Concepts"
+    },
+    {
+      "year": "2nd",
+      "branch": "AI&DS",
+      "course": "Discrete Mathematics"
+    },
+    {
+      "year": "2nd",
+      "branch": "AI&DS",
+      "course": "Optimization Techniques"
+    },
+    {
+      "year": "2nd",
+      "branch": "AI&DS",
+      "course": "Formal Language and Automata Theory"
+    },
+    {
+      "year": "2nd",
+      "branch": "AI&DS",
+      "course": "Database and Warehousing"
+    },
+    {
+      "year": "2nd",
+      "branch": "AI&DS",
+      "course": "Artificial Intelligence"
+    },
+    {
+      "year": "2nd",
+      "branch": "AI&DS",
+      "course": "IT Workshop"
+    },
+    {
+      "year": "2nd",
+      "branch": "AI&DS",
+      "course": "Data Analytics and Visualization"
+    },
+    {
+      "year": "2nd",
+      "branch": "CSE",
+      "course": "Algorithm"
+    },
+    {
+      "year": "2nd",
+      "branch": "CSE",
+      "course": "Digital Logic and Computer Organization"
+    },
+    {
+      "year": "2nd",
+      "branch": "CSE",
+      "course": "Artificial Intelligence Concepts"
+    },
+    {
+      "year": "2nd",
+      "branch": "CSE",
+      "course": "Discrete Mathematics"
+    },
+    {
+      "year": "2nd",
+      "branch": "CSE",
+      "course": "Optimization Techniques"
+    },
+    {
+      "year": "2nd",
+      "branch": "CSE",
+      "course": "Formal Language and Automata Theory"
+    },
+    {
+      "year": "2nd",
+      "branch": "CSE",
+      "course": "Database and Warehousing"
+    },
+    {
+      "year": "2nd",
+      "branch": "CSE",
+      "course": "Artificial Intelligence"
+    },
+    {
+      "year": "2nd",
+      "branch": "CSE",
+      "course": "IT Workshop"
+    },
+    {
+      "year": "2nd",
+      "branch": "CSE",
+      "course": "Computer Architecture"
+    },
+    {
+      "year": "2nd",
+      "branch": "EE",
+      "course": "Measurements and Instrumentation"
+    },
+    {
+      "year": "2nd",
+      "branch": "EE",
+      "course": "Network Analysis and Synthesis"
+    },
+    {
+      "year": "2nd",
+      "branch": "EE",
+      "course": "Analog Circuits"
+    },
+    {
+      "year": "2nd",
+      "branch": "EE",
+      "course": "Signals and Systems"
+    },
+    {
+      "year": "2nd",
+      "branch": "EE",
+      "course": "Electrical Machines \u2013 I"
+    },
+    {
+      "year": "2nd",
+      "branch": "EE",
+      "course": "Semiconductor Devices"
+    },
+    {
+      "year": "2nd",
+      "branch": "EE",
+      "course": "Digital Electronics"
+    },
+    {
+      "year": "2nd",
+      "branch": "EE",
+      "course": "Microprocessor"
+    },
+    {
+      "year": "2nd",
+      "branch": "EE",
+      "course": "Control Systems"
+    },
+    {
+      "year": "2nd",
+      "branch": "EE",
+      "course": "Electrical Machines-II"
+    },
+    {
+      "year": "2nd",
+      "branch": "EE",
+      "course": "Internet of Things"
+    },
+    {
+      "year": "2nd",
+      "branch": "EE",
+      "course": "Computer Organization and Architecture"
+    },
+    {
+      "year": "2nd",
+      "branch": "HS",
+      "course": "Mathematical Statistics"
+    },
+    {
+      "year": "2nd",
+      "branch": "HS",
+      "course": "Fundamentals of Economics"
+    },
+    {
+      "year": "2nd",
+      "branch": "HS",
+      "course": "Multivariate Analysis and Basic Econometrics"
+    },
+    {
+      "year": "2nd",
+      "branch": "HS",
+      "course": "History of Economic Thought"
+    },
+    {
+      "year": "2nd",
+      "branch": "HS",
+      "course": "Probability and Stochastic Processes"
+    },
+    {
+      "year": "2nd",
+      "branch": "HS",
+      "course": "Growth and Development"
+    },
+    {
+      "year": "2nd",
+      "branch": "HS",
+      "course": "Microeconomic Theory"
+    },
+    {
+      "year": "2nd",
+      "branch": "HS",
+      "course": "Macroeconomic Theory"
+    },
+    {
+      "year": "2nd",
+      "branch": "HS",
+      "course": "Econometrics-I"
+    },
+    {
+      "year": "2nd",
+      "branch": "MNC",
+      "course": "Design and Analysis of Algorithms"
+    },
+    {
+      "year": "2nd",
+      "branch": "MNC",
+      "course": "Probability and Stochastic Processes"
+    },
+    {
+      "year": "2nd",
+      "branch": "MNC",
+      "course": "Optimization Techniques"
+    },
+    {
+      "year": "2nd",
+      "branch": "MNC",
+      "course": "Algebra"
+    },
+    {
+      "year": "2nd",
+      "branch": "MNC",
+      "course": "Discrete Mathematics"
+    },
+    {
+      "year": "2nd",
+      "branch": "MNC",
+      "course": "Introduction to Machine Learning"
+    },
+    {
+      "year": "2nd",
+      "branch": "MNC",
+      "course": "Real Analysis and Measure Theory"
+    },
+    {
+      "year": "2nd",
+      "branch": "MNC",
+      "course": "Numerical Linear Algebra"
+    },
+    {
+      "year": "2nd",
+      "branch": "MNC",
+      "course": "Computer Architecture and Organization"
+    },
+    {
+      "year": "2nd",
+      "branch": "MNC",
+      "course": "Database Management Systems"
+    },
+    {
+      "year": "2nd",
+      "branch": "Mechanical",
+      "course": "Dynamics"
+    },
+    {
+      "year": "2nd",
+      "branch": "Mechanical",
+      "course": "Thermodynamics"
+    },
+    {
+      "year": "2nd",
+      "branch": "Mechanical",
+      "course": "Fluid Mechanics"
+    },
+    {
+      "year": "2nd",
+      "branch": "Mechanical",
+      "course": "Engineering Materials"
+    },
+    {
+      "year": "2nd",
+      "branch": "Mechanical",
+      "course": "Kinematics and Dynamics of Mechanisms"
+    },
+    {
+      "year": "2nd",
+      "branch": "Mechanical",
+      "course": "Heat and Mass Transfer"
+    },
+    {
+      "year": "2nd",
+      "branch": "Mechanical",
+      "course": "Mechanics of Solids"
+    },
+    {
+      "year": "2nd",
+      "branch": "Mechanical",
+      "course": "Mechanical Measurements and Instrumentation"
+    },
+    {
+      "year": "2nd",
+      "branch": "MME",
+      "course": "Introduction to MMEllurgical and Materials Engineering"
+    },
+    {
+      "year": "2nd",
+      "branch": "MME",
+      "course": "Mineral Processing and Process MMEllurgy"
+    },
+    {
+      "year": "2nd",
+      "branch": "MME",
+      "course": "Thermodynamics and Phase Equilibria"
+    },
+    {
+      "year": "2nd",
+      "branch": "MME",
+      "course": "Transport Phenomena"
+    },
+    {
+      "year": "2nd",
+      "branch": "MME",
+      "course": "Fundamentals of Polymer Science and Technology"
+    },
+    {
+      "year": "2nd",
+      "branch": "MME",
+      "course": "Iron and Steel Making"
+    },
+    {
+      "year": "2nd",
+      "branch": "MME",
+      "course": "Techniques of Materials Characterization I"
+    },
+    {
+      "year": "2nd",
+      "branch": "MME",
+      "course": "Phase Transformation and Diffusion"
+    },
+    {
+      "year": "2nd",
+      "branch": "MME",
+      "course": "Mechanical Behaviour of Materials"
+    },
+    {
+      "year": "2nd",
+      "branch": "MME",
+      "course": "Welding and Solidification"
+    },
+    {
+      "year": "2nd",
+      "branch": "EP",
+      "course": "Quantum Physics"
+    },
+    {
+      "year": "2nd",
+      "branch": "EP",
+      "course": "Optics and Lasers"
+    },
+    {
+      "year": "2nd",
+      "branch": "EP",
+      "course": "Classical dynamics: discrete and continuum systems"
+    },
+    {
+      "year": "2nd",
+      "branch": "EP",
+      "course": "Thermal physics with engineering applications"
+    },
+    {
+      "year": "2nd",
+      "branch": "EP",
+      "course": "Introduction to Nuclear and Particle Physics"
+    },
+    {
+      "year": "2nd",
+      "branch": "EP",
+      "course": "Mathematical Methods for Engineers"
+    },
+    {
+      "year": "2nd",
+      "branch": "EP",
+      "course": "Electromagnetism"
+    },
+    {
+      "year": "2nd",
+      "branch": "EP",
+      "course": "Introductory Statistical Mechanics"
+    },
+    {
+      "year": "2nd",
+      "branch": "EP",
+      "course": "Analog Electronics"
+    }
+  ]
+}

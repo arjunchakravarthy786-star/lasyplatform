@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #000000, #0c0c38);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 2em;
+  margin-top: 40px;
+  color: #ffd700;
+  text-shadow: 0 0 8px #00ffff;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  font-size: 1.2em;
+}

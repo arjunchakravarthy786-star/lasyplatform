@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Upload Approval - Lasy</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    .file-card { border: 1px solid #ccc; padding: 15px; margin: 10px 0; }
+    button { margin-right: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Pending Uploads</h1>
+  <div id="pendingList">Loading...</div>
+
+  <!-- Firebase SDKs -->
+  <script type="module">
+
+const adminKey = prompt("Enter Admin Key:");
+if (adminKey !== "1234") {
+  document.body.innerHTML = "<h2>❌ Access Denied</h2>";
+  throw new Error("Not authorized");
+}
+
+
+
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getStorage, ref, listAll, getDownloadURL, deleteObject, uploadBytes } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-storage.js";
+    import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+     apiKey: "AIzaSyCQQf8-TJawTBt2G_iqETxVDdGkxqWMAzk",
+  authDomain: "lasyplatform.firebaseapp.com",
+  projectId: "lasyplatform",
+  storageBucket: "lasyplatform.firebasestorage.app",
+  messagingSenderId: "772423880205",
+  appId: "1:772423880205:web:8501ac3b96e34a53da4f44",
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const storage = getStorage(app);
+    const db = getFirestore(app);
+
+    const pendingRef = ref(storage, "pendingUploads");
+    const pendingList = document.getElementById("pendingList");
+
+    async function loadPendingFiles() {
+      pendingList.innerHTML = "Loading...";
+      const levels = await listAll(pendingRef);
+      pendingList.innerHTML = "";
+
+      for (const yearFolder of levels.prefixes) {
+        const courseFolders = await listAll(yearFolder);
+        for (const courseFolder of courseFolders.prefixes) {
+          const typeFolders = await listAll(courseFolder);
+          for (const typeFolder of typeFolders.prefixes) {
+            const files = await listAll(typeFolder);
+            for (const item of files.items) {
+              const url = await getDownloadURL(item);
+              const nameParts = item.fullPath.split('/');
+              const year = nameParts[1];
+              const course = nameParts[2];
+              const type = nameParts[3];
+              const fileName = nameParts[4];
+
+              const card = document.createElement("div");
+              card.className = "file-card";
+              card.innerHTML = `
+                <p><strong>Year:</strong> ${year}</p>
+                <p><strong>Course:</strong> ${course}</p>
+                <p><strong>Type:</strong> ${type}</p>
+                <p><strong>File:</strong> ${fileName}</p>
+                <a href="${url}" target="_blank">Preview PDF</a><br><br>
+                <button onclick="approveFile('${item.fullPath}', '${year}', '${course}', '${type}', '${fileName}')">✅ Approve</button>
+                <button onclick="deleteFile('${item.fullPath}')">❌ Delete</button>
+              `;
+              pendingList.appendChild(card);
+            }
+          }
+        }
+      }
+
+      if (pendingList.innerHTML.trim() === "") {
+        pendingList.innerHTML = "<p>No pending files found.</p>";
+      }
+    }
+
+    async function approveFile(path, year, course, type, fileName) {
+      const oldRef = ref(storage, path);
+      const fileData = await fetch(await getDownloadURL(oldRef)).then(r => r.blob());
+      const newPath = `structure/${year}/branches/All/courses/${course}/${type.toLowerCase()}s/${fileName}`;
+      const newRef = ref(storage, newPath);
+
+      await uploadBytes(newRef, fileData);
+      await deleteObject(oldRef);
+
+      const fileDocRef = doc(db, `structure/${year}/branches/All/courses/${course}/${type.toLowerCase()}s/${fileName}`);
+      await setDoc(fileDocRef, {
+        title: fileName,
+        url: await getDownloadURL(newRef),
+        timestamp: new Date()
+      });
+
+      alert("✅ Approved and moved successfully.");
+      loadPendingFiles();
+    }
+
+    async function deleteFile(path) {
+      if (!confirm("Are you sure you want to delete this file?")) return;
+      await deleteObject(ref(storage, path));
+      alert("❌ File deleted.");
+      loadPendingFiles();
+    }
+
+    window.approveFile = approveFile;
+    window.deleteFile = deleteFile;
+
+    loadPendingFiles();
+  </script>
+</body>
+</html>

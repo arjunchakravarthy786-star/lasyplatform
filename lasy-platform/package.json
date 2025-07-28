@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "firebase": "^12.0.0",
+    "firebase-admin": "^13.4.0"
+  },
+  "name": "lasy",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

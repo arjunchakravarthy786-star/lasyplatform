@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI&DS 2nd-Year Courses</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #000000, #0c0c38);
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      overflow-x: hidden;
+      text-align: center;
+    }
+
+    .page-title {
+      font-size: 2em;
+      margin-top: 40px;
+      color: #ffd700;
+      text-shadow: 0 0 8px #00ffff;
+    }
+
+    .subtitle {
+      margin-bottom: 30px;
+      font-size: 1.2em;
+    }
+
+    .wheels-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    .wheel {
+      width: 300px;
+      height: 300px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 50%;
+      border: 3px solid #00ffff;
+      box-shadow: 0 0 30px #00ffff, inset 0 0 20px #ffd700;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      animation: slideIn 1.5s ease forwards;
+    }
+
+    .wheel-left {
+      animation-name: slideInLeft;
+    }
+
+    .wheel-right {
+      animation-name: slideInRight;
+    }
+
+    .slice {
+      background: rgba(255, 255, 255, 0.08);
+      border: 2px solid gold;
+      color: white;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 10px;
+      width: 100px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px #00f0ff;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .slice:hover {
+      background-color: #000;
+      color: #00f0ff;
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00f0ff;
+    }
+
+    @keyframes slideInLeft {
+      0% {
+        transform: translateX(-100vw);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideInRight {
+      0% {
+        transform: translateX(100vw);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .wheels-container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .wheel {
+        width: 90vw;
+        height: 90vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="page-title">With lot's of hopes again new batch - 1<sup>st</sup> Year</h1>
+  <p class="subtitle">Select your course below to explore PDFs, videos, and more.</p>
+
+  <div class="wheels-container">
+    <div class="wheel wheel-left">
+      <a href="../courses/AI and DS Courses/Algorith.html" class="slice">Algorithm</a>
+      <a href="../courses/AI and DS Courses/Artificial Intelligence Concepts.html" class="slice">Artificial Intelligence Concepts</a>
+      <a href="../courses/AI and DS Courses/Digital Logic and Computer Organization.html" class="slice">Digital Logic and Computer Organization</a>
+      <a href="../courses/AI and DS Courses/Discrete Maths.html" class="slice">Discrete Mathematics</a>
+      <a href="../courses/AI and DS Courses/Optimization Techniques.html" class="slice">Optimization Techniques</a>
+    </div>
+
+    <div class="wheel wheel-right">
+      <a href="../courses/AI and DS Courses/Formal language and Automata Theory.html" class="slice">Formal language and Automata Theory</a>
+      <a href="../courses/AI and DS Courses/Database and Warehousing.html" class="slice">Database and Warehousing</a>
+      <a href="../courses/AI and DS Courses/Artificial Intelligence.html" class="slice">Artificial Intelligence</a>
+      <a href="../courses/AI and DS Courses/IT Workshop.html" class="slice">IT Workshop</a>
+      <a href="../courses/AI and DS Courses/Data Analytics and Visualization.html" class="slice">Data Analytics and Visualization</a>
+    </div>
+  </div>
+</body>
+</html>
