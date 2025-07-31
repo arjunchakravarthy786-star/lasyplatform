@@ -594,6 +594,614 @@
       "year": "2nd",
       "branch": "EP",
       "course": "Analog Electronics"
-    }
+    },
+
+
+
+  {
+    "year": "3rd",
+    "branch": "CBE",
+    "course": "Mass Transfer-II"
+  },
+  {
+    "year": "3rd",
+    "branch": "CBE",
+    "course": "Chemical Process Technology"
+  },
+  {
+    "year": "3rd",
+    "branch": "CBE",
+    "course": "Process Equipment Design"
+  },
+  {
+    "year": "3rd",
+    "branch": "CBE",
+    "course": "Chemical Reaction Engineering-II"
+  },
+  {
+    "year": "3rd",
+    "branch": "CBE",
+    "course": "Chemical Process Modeling and Simulation"
+  },
+  {
+    "year": "3rd",
+    "branch": "CBE",
+    "course": "Process Plant Design and Economics"
+  },
+  {
+    "year": "3rd",
+    "branch": "CBE",
+    "course": "Transport Phenomena"
+  },
+  {
+    "year": "3rd",
+    "branch": "CBE",
+    "course": "Numerical Methods in Chemical Engineering"
+  },
+  {
+    "year": "3rd",
+    "branch": "CBE",
+    "course": "AI-ML for Chemical Engineers"
+  },
+  {
+    "year": "3rd",
+    "branch": "CBE",
+    "course": "Chemical Plant Safety and Hazards"
+  },
+  {
+    "year": "3rd",
+    "branch": "Civil",
+    "course": "Design of Reinforced Concrete Structures"
+  },
+  {
+    "year": "3rd",
+    "branch": "Civil",
+    "course": "Foundation Engineering"
+  },
+  {
+    "year": "3rd",
+    "branch": "Civil",
+    "course": "Transportation Engineering – I"
+  },
+  {
+    "year": "3rd",
+    "branch": "Civil",
+    "course": "Environmental Engineering - I"
+  },
+  {
+    "year": "3rd",
+    "branch": "Civil",
+    "course": "Design of Steel Structures"
+  },
+  {
+    "year": "3rd",
+    "branch": "Civil",
+    "course": "Infrastructure Drawing and Estimation"
+  },
+  {
+    "year": "3rd",
+    "branch": "Civil",
+    "course": "Construction Planning & Management"
+  },
+  {
+    "year": "3rd",
+    "branch": "Civil",
+    "course": "Environmental Engg-II"
+  },
+  {
+    "year": "3rd",
+    "branch": "Civil",
+    "course": "Water Resources Engineering - II"
+  },
+  {
+    "year": "3rd",
+    "branch": "Civil",
+    "course": "Transportation Engineering - II"
+  },
+  {
+    "year": "3rd",
+    "branch": "chemistry",
+    "course": "Macromolecular Science and Engineering"
+  },
+  {
+    "year": "3rd",
+    "branch": "chemistry",
+    "course": "Design and Applications of Nanomaterials"
+  },
+  {
+    "year": "3rd",
+    "branch": "chemistry",
+    "course": "Chemical Kinetics and Electrochemistry"
+  },
+  {
+    "year": "3rd",
+    "branch": "chemistry",
+    "course": "Techniques for Chemical Analysis"
+  },
+  {
+    "year": "3rd",
+    "branch": "chemistry",
+    "course": "Chemical Technology Laboratory II"
+  },
+  {
+    "year": "3rd",
+    "branch": "chemistry",
+    "course": "Medicinal Chemistry"
+  },
+  {
+    "year": "3rd",
+    "branch": "chemistry",
+    "course": "Environmental Science & Technology"
+  },
+  {
+    "year": "3rd",
+    "branch": "chemistry",
+    "course": "Computational Chemistry"
+  },
+  {
+    "year": "3rd",
+    "branch": "chemistry",
+    "course": "Chemistry for Propellants and Pyrotechnics"
+  },
+  {
+    "year": "3rd",
+    "branch": "chemistry",
+    "course": "Chemical Technology Laboratory III"
+  },
+  {
+    "year": "3rd",
+    "branch": "AI&DS",
+    "course": "Operating System"
+  },
+  {
+    "year": "3rd",
+    "branch": "AI&DS",
+    "course": "Computer Network"
+  },
+  {
+    "year": "3rd",
+    "branch": "AI&DS",
+    "course": "Machine Learning"
+  },
+  {
+    "year": "3rd",
+    "branch": "AI&DS",
+    "course": "Natural Language Processing"
+  },
+  {
+    "year": "3rd",
+    "branch": "AI&DS",
+    "course": "Cyber Security"
+  },
+  {
+    "year": "3rd",
+    "branch": "AI&DS",
+    "course": "Deep Learning"
+  },
+  {
+    "year": "3rd",
+    "branch": "AI&DS",
+    "course": "Computer Vision"
+  },
+  {
+    "year": "3rd",
+    "branch": "AI&DS",
+    "course": "Capstone Project"
+  },
+  {
+    "year": "3rd",
+    "branch": "CSE",
+    "course": "Operating System"
+  },
+  {
+    "year": "3rd",
+    "branch": "CSE",
+    "course": "Computer Network"
+  },
+  {
+    "year": "3rd",
+    "branch": "CSE",
+    "course": "Machine Learning"
+  },
+  {
+    "year": "3rd",
+    "branch": "CSE",
+    "course": "Compiler"
+  },
+  {
+    "year": "3rd",
+    "branch": "CSE",
+    "course": "Cyber Security"
+  },
+  {
+    "year": "3rd",
+    "branch": "CSE",
+    "course": "Deep Learning"
+  },
+  {
+    "year": "3rd",
+    "branch": "CSE",
+    "course": "Internet of Things"
+  },
+  {
+    "year": "3rd",
+    "branch": "CSE",
+    "course": "Capstone Project"
+  },
+  {
+    "year": "3rd",
+    "branch": "ECE",
+    "course": "Microcontroller and Embedded System"
+  },
+  {
+    "year": "3rd",
+    "branch": "ECE",
+    "course": "VLSI Design"
+  },
+  {
+    "year": "3rd",
+    "branch": "ECE",
+    "course": "Analog Communication"
+  },
+  {
+    "year": "3rd",
+    "branch": "ECE",
+    "course": "Engineering Electromagnetics"
+  },
+  {
+    "year": "3rd",
+    "branch": "ECE",
+    "course": "Random Signals and Stochastic Processes"
+  },
+  {
+    "year": "3rd",
+    "branch": "ECE",
+    "course": "Digital Communication"
+  },
+  {
+    "year": "3rd",
+    "branch": "ECE",
+    "course": "Digital Signal Processing"
+  },
+  {
+    "year": "3rd",
+    "branch": "ECE",
+    "course": "Introduction to AI-ML"
+  },
+  {
+    "year": "3rd",
+    "branch": "ECE",
+    "course": "Low Power MOSFETs Design and Modeling"
+  },
+  {
+    "year": "3rd",
+    "branch": "ECE",
+    "course": "Introduction to Wireless Communications"
+  },
+  {
+    "year": "3rd",
+    "branch": "ECE",
+    "course": "RF Systems"
+  },
+  {
+    "year": "3rd",
+    "branch": "EEE",
+    "course": "Microcontroller and Embedded System"
+  },
+  {
+    "year": "3rd",
+    "branch": "EEE",
+    "course": "Power Systems-I"
+  },
+  {
+    "year": "3rd",
+    "branch": "EEE",
+    "course": "Modern Control Theory"
+  },
+  {
+    "year": "3rd",
+    "branch": "EEE",
+    "course": "Engineering Electromagnetics"
+  },
+  {
+    "year": "3rd",
+    "branch": "EEE",
+    "course": "Random Signals and Stochastic Processes"
+  },
+  {
+    "year": "3rd",
+    "branch": "EEE",
+    "course": "Fundamentals of Electric Drives"
+  },
+  {
+    "year": "3rd",
+    "branch": "EEE",
+    "course": "Digital Signal Processing"
+  },
+  {
+    "year": "3rd",
+    "branch": "EEE",
+    "course": "Introduction to AI-ML"
+  },
+  {
+    "year": "3rd",
+    "branch": "EEE",
+    "course": "Power System II"
+  },
+  {
+    "year": "3rd",
+    "branch": "EEE",
+    "course": "Power Electronics"
+  },
+  {
+    "year": "3rd",
+    "branch": "EEE",
+    "course": "Electrical Machine Design"
+  },
+  {
+    "year": "3rd",
+    "branch": "HS",
+    "course": "Econometrics – II"
+  },
+  {
+    "year": "3rd",
+    "branch": "HS",
+    "course": "Mathematical Economics"
+  },
+  {
+    "year": "3rd",
+    "branch": "HS",
+    "course": "International Trade and Investment"
+  },
+  {
+    "year": "3rd",
+    "branch": "HS",
+    "course": "Debate in Indian Economy"
+  },
+  {
+    "year": "3rd",
+    "branch": "HS",
+    "course": "Categorical Data Analysis"
+  },
+  {
+    "year": "3rd",
+    "branch": "HS",
+    "course": "Environmental Economics"
+  },
+  {
+    "year": "3rd",
+    "branch": "HS",
+    "course": "Critical Economic Reading and Seminar"
+  },
+  {
+    "year": "3rd",
+    "branch": "HS",
+    "course": "Indian Financial System"
+  },
+  {
+    "year": "3rd",
+    "branch": "HS",
+    "course": "Health Economics"
+  },
+  {
+    "year": "3rd",
+    "branch": "MNC",
+    "course": "Ordinary and Partial Differential Equations"
+  },
+  {
+    "year": "3rd",
+    "branch": "MNC",
+    "course": "Complex Analysis"
+  },
+  {
+    "year": "3rd",
+    "branch": "MNC",
+    "course": "Theory of Computation"
+  },
+  {
+    "year": "3rd",
+    "branch": "MNC",
+    "course": "Computer Networks"
+  },
+  {
+    "year": "3rd",
+    "branch": "MNC",
+    "course": "Operating Systems"
+  },
+  {
+    "year": "3rd",
+    "branch": "MNC",
+    "course": "Number Theory and Cryptography"
+  },
+  {
+    "year": "3rd",
+    "branch": "MNC",
+    "course": "Numerical Methods"
+  },
+  {
+    "year": "3rd",
+    "branch": "MNC",
+    "course": "Mathematical Statistics"
+  },
+  {
+    "year": "3rd",
+    "branch": "MNC",
+    "course": "Convex Optimization"
+  },
+  {
+    "year": "3rd",
+    "branch": "MNC",
+    "course": "Functional Analysis"
+  },
+  {
+    "year": "3rd",
+    "branch": "MNC",
+    "course": "Artificial Intelligence"
+  },
+  {
+    "year": "3rd",
+    "branch": "Mechanical",
+    "course": "Data Analytics and Machine Learning Tools for Engineers"
+  },
+  {
+    "year": "3rd",
+    "branch": "Mechanical",
+    "course": "Design of Machine Elements"
+  },
+  {
+    "year": "3rd",
+    "branch": "Mechanical",
+    "course": "Manufacturing Technology- I"
+  },
+  {
+    "year": "3rd",
+    "branch": "Mechanical",
+    "course": "Engineering Software Laboratory"
+  },
+  {
+    "year": "3rd",
+    "branch": "Mechanical",
+    "course": "Numerical Methods for Engineers"
+  },
+  {
+    "year": "3rd",
+    "branch": "Mechanical",
+    "course": "Applied Thermodynamics and Turbomachinery"
+  },
+  {
+    "year": "3rd",
+    "branch": "Mechanical",
+    "course": "System Dynamics and Control"
+  },
+  {
+    "year": "3rd",
+    "branch": "Mechanical",
+    "course": "Manufacturing Technology -II"
+  },
+  {
+    "year": "3rd",
+    "branch": "Mechanical",
+    "course": "Industrial Engineering and Operations Research"
+  },
+  {
+    "year": "3rd",
+    "branch": "Mechanical",
+    "course": "Technical Writing and Presentations"
+  },
+  {
+    "year": "3rd",
+    "branch": "MME",
+    "course": "Thermomechanical Processing of Metallic Materials"
+  },
+  {
+    "year": "3rd",
+    "branch": "MME",
+    "course": "Computational Materials Science"
+  },
+  {
+    "year": "3rd",
+    "branch": "MME",
+    "course": "Engineering Polymers"
+  },
+  {
+    "year": "3rd",
+    "branch": "MME",
+    "course": "Ceramic Science and Technology"
+  },
+  {
+    "year": "3rd",
+    "branch": "MME",
+    "course": "Metallography and Heat Treatment Laboratory"
+  },
+  {
+    "year": "3rd",
+    "branch": "MME",
+    "course": "Techniques of Materials Characterization II"
+  },
+  {
+    "year": "3rd",
+    "branch": "MME",
+    "course": "Corrosion and Corrosion Prevention"
+  },
+  {
+    "year": "3rd",
+    "branch": "MME",
+    "course": "Functional Materials"
+  },
+  {
+    "year": "3rd",
+    "branch": "MME",
+    "course": "Non-ferrous Metals and Alloys"
+  },
+  {
+    "year": "3rd",
+    "branch": "MME",
+    "course": "Capstone Laboratory"
+  },
+  {
+    "year": "3rd",
+    "branch": "MME",
+    "course": "Metals Processing Laboratory"
+  },
+  
+  {
+    "year": "3rd",
+    "branch": "EP",
+    "course": "Computational Techniques"
+  },
+  {
+    "year": "3rd",
+    "branch": "EP",
+    "course": "Data Science for Physicists"
+  },
+  {
+    "year": "3rd",
+    "branch": "EP",
+    "course": "Digital Electronics and Microprocessors"
+  },
+  {
+    "year": "3rd",
+    "branch": "EP",
+    "course": "Solid State Physics"
+  },
+  {
+    "year": "3rd",
+    "branch": "EP",
+    "course": "Instrumentation Techniques"
+  },
+  {
+    "year": "3rd",
+    "branch": "EP",
+    "course": "Nonlinear Dynamics"
+  },
+  {
+    "year": "3rd",
+    "branch": "EP",
+    "course": "Interfacing and data analysis"
+  },
+  {
+    "year": "3rd",
+    "branch": "EP",
+    "course": "Atomic and Molecular Physics"
+  },
+  {
+    "year": "3rd",
+    "branch": "EP",
+    "course": "Soft Condensed Matter Physics"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
   ]
 }
